@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "GitHubSearchProject.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "GitHubSearchProject.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitHubSearchProject.Controllers.GitHubController",
+    "Method": "GetRepositoriesAsync",
+    "RelativePath": "api/git-hub/repositories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchDTO",
+        "Type": "GitHubSearchProject.DTOs.SearchDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitHubSearchAPI.Controllers.UserController",
+    "Method": "GetUserMenu",
+    "RelativePath": "api/user/menu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
